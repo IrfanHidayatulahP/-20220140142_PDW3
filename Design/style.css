@@ -1,3 +1,4 @@
+/* Membuat desain untuk body */
 body {
     display: flex;
     justify-content: center;
@@ -7,6 +8,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* Membuat desain untuk Class Container */
 .Container {
     display: flex;
     background-color: transparent;
@@ -15,19 +17,22 @@ body {
     border-radius: 1vh;
 }
 
+/* Membuat desain untuk h2 */
 h2 {
     border: 3px solid white;
     text-align: center;
     margin-bottom: 10px;
 }
 
+/* Membuat desain untuk gambar di tabel */
 .Tabel img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-  }
+}
 
+/* Membuat desain untuk tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -36,6 +41,7 @@ table {
     font-size: 20px;
 }
   
+/* Membuat desain untuk pengaturan kolom */
 th, td {
     padding: 10px;
     text-align: left;
@@ -44,6 +50,7 @@ th, td {
     text-align: center;
 }
   
+/* Membuat desain untuk Judul Kolom */
 th {
     background-color: grey;
     text-align: center;
